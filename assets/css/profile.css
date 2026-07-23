@@ -93,6 +93,24 @@ body {
     padding-left: 0;
 }
 
+.internship-entry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.internship-entry > div {
+    line-height: 1.5;
+}
+
+.internship-entry img {
+    width: 150px;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
 h1, h2 {
     color: #263054;
     border-bottom: 1px solid #aaa;
